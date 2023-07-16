@@ -1,0 +1,236 @@
+:root {
+  --main-bg: #1d1d1b;
+  --outline: #eace9b;
+}
+
+body {
+  position: relative;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: var(--outline);
+}
+
+button {
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
+
+body {
+  background: var(--main-bg);
+  font-family: Now;
+  /* height: 100vh;
+  width: 100vw; */
+  font-family: Now Regular;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: Now Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Now Regular"), url(assets/Font/Now-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Now Thin;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Now Thin"), url(assets/Font/Now-Thin.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Now Light;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Now Light"), url(assets/Font/Now-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Now Medium;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Now Medium"), url(assets/Font/Now-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Now Bold;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Now Bold"), url(assets/Font/Now-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Now Black;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Now Black"), url(assets/Font/Now-Black.otf) format("opentype");
+}
+
+.hide {
+  display: none !important;
+  pointer-events: none;
+}
+
+.inert {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.left-line {
+  width: 43px;
+  height: 100%;
+  overflow: hidden;
+  background-image: url(https://www.elattal.com/left-line.26a7d67a349a6f7f.svg);
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  pointer-events: none;
+  margin-left: 3rem !important;
+}
+
+@media (max-width: 992px) {
+  .left-line {
+    margin-left: 3rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .left-line {
+    margin-left: 1.5rem !important;
+    width: 30px !important;
+  }
+}
+
+.section-p {
+  font-family: Now Light;
+  line-height: 1.6;
+  font-size: 22px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-fit {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.fixed {
+  position: fixed !important;
+  left: 0;
+  width: 100% !important;
+}
+
+.sub-text {
+  display: block;
+  position: relative;
+  font-size: 2rem;
+  margin-bottom: 0.5rem !important;
+  font-family: Now Light;
+  color: #eace9b;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.sub-text::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
+  width: 14vw;
+  background: var(--outline);
+  height: 1px;
+}
+
+/* Styles for screens between 1200px and 1599.98px */
+
+@media (max-width: 1600px) {
+  .sub-text {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sub-text {
+    font-size: 14px !important;
+  }
+}
+/* Styles for screens smaller than 1200px */
+@media (max-width: 1200px) {
+  .sub-text {
+    font-size: calc(1.325rem + 0.9vw);
+  }
+}
+
+@media (min-width: 1200px) {
+  .sub-text {
+    letter-spacing: 5.5px;
+  }
+}
+
+.title {
+  position: relative;
+  color: #fff;
+  transition: 0.8s linear;
+  font-size: calc(1.3rem + 0.6vw);
+  font-family: Now Bold;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 1200px) {
+  .title {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .section-p {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  .title {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .title {
+    font-size: 35px;
+  }
+  .sub-text {
+    font-size: 18px;
+  }
+  .section-p {
+    font-size: 15px;
+  }
+  #about .about-main {
+    width: 100% !important;
+  }
+}
