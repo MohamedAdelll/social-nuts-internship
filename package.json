@@ -1,0 +1,27 @@
+{
+  "name": "nuts-intern-elattal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedAdelll/social-nuts-internship.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Mohamed Ashour",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohamedAdelll/social-nuts-internship/issues"
+  },
+  "homepage": "https://github.com/MohamedAdelll/social-nuts-internship#readme",
+  "dependencies": {
+    "swiper": "^10.0.4"
+  }
+}
