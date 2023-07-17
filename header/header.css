@@ -44,7 +44,7 @@
       #eace9b 0%,
       #9d824b 100%
     ) 0% 0% no-repeat padding-box;
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
   text-shadow: 0px 0px #00000000;
   display: inline-block;
