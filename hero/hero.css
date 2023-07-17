@@ -2,7 +2,7 @@ section.hero {
   position: relative;
   height: 100vh;
   width: 100vw;
-  z-index: 1;
+  z-index: 5;
 }
 section.hero::after {
   content: "";
@@ -91,5 +91,14 @@ video {
     opacity: 0;
     transform: translateY(20px);
     scale: 0.9;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-container svg {
+    width: 265px !important;
+  }
+  .slogan {
+    font-size: 20px;
   }
 }

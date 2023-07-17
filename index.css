@@ -104,7 +104,7 @@ html {
   background-size: contain;
   position: absolute;
   top: 0;
-  z-index: 1;
+  z-index: 3;
   pointer-events: none;
   margin-left: 3rem !important;
 }
@@ -166,6 +166,10 @@ html {
   width: 14vw;
   background: var(--outline);
   height: 1px;
+}
+
+.text-white {
+  color: #fff !important;
 }
 
 /* Styles for screens between 1200px and 1599.98px */
