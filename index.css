@@ -1,5 +1,7 @@
+@import "node_modules/swiper/swiper-bundle.css";
+
 :root {
-  --main-bg: #1d1d1b;
+  --main-bg: #363b3c;
   --outline: #eace9b;
 }
 
@@ -166,6 +168,7 @@ html {
   width: 14vw;
   background: var(--outline);
   height: 1px;
+  margin-left: 5px;
 }
 
 .text-white {
@@ -237,4 +240,8 @@ html {
   #about .about-main {
     width: 100% !important;
   }
+}
+
+.translateY-0 {
+  transform: translateY(0%) !important;
 }

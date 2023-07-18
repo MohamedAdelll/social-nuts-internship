@@ -66,6 +66,9 @@
   .about-main {
     width: 100% !important;
   }
+  .about-p {
+    padding: 0 1rem;
+  }
 }
 
 @media (max-width: 576px) {

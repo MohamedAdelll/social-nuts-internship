@@ -10,8 +10,12 @@
     <link rel="stylesheet" href="about/about.css" />
     <link rel="stylesheet" href="header/header.css" />
     <link rel="stylesheet" href="developments/developments.css" />
-    <script src="loader/loader.js" defer></script>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    /> -->
     <script src="header/header.js" defer></script>
+    <script src="loader/loader.js" defer></script>
     <script src="newsLetterModal/newLetterModal.js" defer></script>
     <script src="hero/hero.js" defer></script>
     <script src="developments/developments.js" type="module" defer></script>
@@ -32,6 +36,7 @@
     <div class="newsletter-modal hide">
       <div class="newsletter-img__container">
         <img
+          class="img-fit"
           src="assets/pexels-john-lee-6766628.png"
           alt="newsletter - building image"
         />
@@ -890,112 +895,12 @@
           </g>
         </svg>
         <h1 class="slogan my-1 ml12 text-uppercase" style="opacity: 1">
-          <span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >A</span
-          >
-          <span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >V</span
-          ><span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >I</span
-          ><span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >S</span
-          ><span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >I</span
-          ><span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >O</span
-          ><span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >N</span
-          >
-          <span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >P</span
-          ><span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >O</span
-          ><span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >W</span
-          ><span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >E</span
-          ><span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >R</span
-          ><span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >E</span
-          ><span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >D</span
-          >
-          <span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >B</span
-          ><span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >Y</span
-          >
-          <span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >H</span
-          ><span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >E</span
-          ><span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >R</span
-          ><span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >I</span
-          ><span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >T</span
-          ><span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >A</span
-          ><span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >G</span
-          ><span
-            class="letter d-inline-block"
-            style="transform: translateX(0px) translateZ(0px); opacity: 1"
-            >E</span
-          >
+          A Vision Powered By Heritage
         </h1>
       </div>
       <a
         href="#about"
-        title="scroll to nect section"
+        title="scroll to next section"
         class="mouse-animation hide"
       ></a>
     </section>
@@ -1089,61 +994,151 @@
               src="https://www.elattal.com/elattal_backend/public/images/1663149418_543707.webp"
               alt="el attal image building"
             />
+            <div data-index="0" class="slide-description flex">
+              <div class="flex img-container">
+                <img
+                  src="https://www.elattal.com/elattal_backend/public/images/1648389874_388999.svg"
+                  alt="Bayside"
+                />
+              </div>
+              <div style="padding: 0 12px">
+                <h3 class="title">
+                  A WHOLE NEW EXPERIENCE DRAWN BY NATURE, AND ALIVE BY LUXURY.
+                </h3>
+                <p>
+                  Bayside, a refined piece of South Sinai, a red sea coastal
+                  town, characterized by its natural beauty of curved golden
+                  sand beaches and by its soul easing atmosphere of purity and
+                  simplicity.
+                </p>
+                <span class="more-info">
+                  <a href="#">Learn More</a>
+                  <svg
+                    width="25"
+                    height="25"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#ffffff"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icon-tabler-arrow-narrow-right arrowRotation"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <line x1="15" y1="16" x2="19" y2="12"></line>
+                    <line x1="15" y1="8" x2="19" y2="12"></line>
+                  </svg>
+                </span>
+              </div>
+            </div>
           </div>
           <div class="swiper-slide">
             <img
               class="img-fit"
-              src="https://www.elattal.com/elattal_backend/public/images/1663149418_543707.webp"
+              src="https://www.elattal.com/elattal_backend/public/images/1663149394_576814.webp"
               alt="el attal image building"
             />
+            <div data-index="1" class="slide-description flex">
+              <div class="flex img-container">
+                <img
+                  src="https://www.elattal.com/elattal_backend/public/images/1648117465_912110.webp"
+                  alt="Bayside"
+                />
+              </div>
+              <div style="padding: 0 12px">
+                <h3 class="title">
+                  A WHOLE NEW EXPERIENCE DRAWN BY NATURE, AND ALIVE BY LUXURY.
+                </h3>
+                <p>
+                  Bayside, a refined piece of South Sinai, a red sea coastal
+                  town, characterized by its natural beauty of curved golden
+                  sand beaches and by its soul easing atmosphere of purity and
+                  simplicity.
+                </p>
+                <span class="more-info">
+                  <a href="#">Learn More</a>
+                  <svg
+                    width="25"
+                    height="25"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#ffffff"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icon-tabler-arrow-narrow-right arrowRotation"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <line x1="15" y1="16" x2="19" y2="12"></line>
+                    <line x1="15" y1="8" x2="19" y2="12"></line>
+                  </svg>
+                </span>
+              </div>
+            </div>
           </div>
           <div class="swiper-slide">
             <img
               class="img-fit"
-              src="https://www.elattal.com/elattal_backend/public/images/1663149418_543707.webp"
+              src="https://www.elattal.com/elattal_backend/public/images/1685450261_326385.webp"
               alt="el attal image building"
             />
+            <div data-index="2" class="slide-description flex">
+              <div class="flex img-container">
+                <img
+                  src="https://www.elattal.com/elattal_backend/public/images/1685450262_287532.webp"
+                  alt="Bayside"
+                />
+              </div>
+              <div style="padding: 0 12px">
+                <h3 class="title">
+                  A WHOLE NEW EXPERIENCE DRAWN BY NATURE, AND ALIVE BY LUXURY.
+                </h3>
+                <p>
+                  Bayside, a refined piece of South Sinai, a red sea coastal
+                  town, characterized by its natural beauty of curved golden
+                  sand beaches and by its soul easing atmosphere of purity and
+                  simplicity.
+                </p>
+                <span class="more-info">
+                  <a href="#">Learn More</a>
+                  <svg
+                    width="25"
+                    height="25"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#ffffff"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icon-tabler-arrow-narrow-right arrowRotation"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <line x1="15" y1="16" x2="19" y2="12"></line>
+                    <line x1="15" y1="8" x2="19" y2="12"></line>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="flex text-white swiper-control">
+            <div class="swiper-button-prev flex"></div>
+            <div>
+              <span class="page-number">01</span>
+              <span class="">/</span>
+              <span class="total-number">03</span>
+            </div>
+            <div class="swiper-button-next flex"></div>
           </div>
         </div>
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
 
         <!-- If we need navigation buttons -->
-        <div class="flex text-white swiper-controll">
-          <div class="swiper-button-prev flex">
-            <svg
-              fill="#fff"
-              xmlns="http://www.w3.org/2000/svg"
-              height="1em"
-              viewBox="0 0 320 512"
-            >
-              <path
-                d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
-              />
-            </svg>
-          </div>
-          <div>
-            <span class="page-number">01</span>
-            <span class="">/</span>
-            <span class="total-number">03</span>
-          </div>
-          <div class="swiper-button-next flex">
-            <svg
-              fill="#fff"
-              xmlns="http://www.w3.org/2000/svg"
-              height="1em"
-              viewBox="0 0 320 512"
-            >
-              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-              <path
-                d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
-              />
-            </svg>
-          </div>
-        </div>
 
         <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
       </div>
     </section>
   </body>

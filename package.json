@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/MohamedAdelll/social-nuts-internship#readme",
   "dependencies": {
-    "swiper": "^10.0.4"
+    "swiper": "^7.4.1"
   },
   "devDependencies": {
     "@web/dev-server": "^0.3.0"

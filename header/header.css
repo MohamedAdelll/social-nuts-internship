@@ -11,7 +11,7 @@
 
 .header.fixed {
   top: 20px !important;
-  z-index: 2;
+  z-index: 5;
 }
 .header.fixed .logo-img-container {
   animation: fade-to-right 0.5s ease-in-out forwards;
@@ -157,9 +157,7 @@
   .header .logo-img-container {
     display: none;
   }
-}
 
-@media (max-width: 576px) {
   .header {
     padding-right: 0.5rem !important;
     padding-left: 1.5rem !important;

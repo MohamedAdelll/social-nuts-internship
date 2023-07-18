@@ -1,5 +1,5 @@
 const mainAnimationTime = 5000;
-const fadeAnimationTime = 300;
+const fadeAnimationTime = 100;
 const tick = mainAnimationTime / 100;
 
 const sections = document.querySelectorAll("section");
@@ -21,3 +21,7 @@ const intervalId = setInterval(() => {
     }, fadeAnimationTime);
   }
 }, tick);
+
+window.addEventListener("beforeunload", function (event) {
+  header.classList.add("hide");
+});

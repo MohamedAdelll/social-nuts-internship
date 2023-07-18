@@ -76,6 +76,10 @@ input[type="email"]:focus + label {
   transition: all 0.2s ease-in-out;
 }
 
+.newsletter-img__container {
+  min-width: 250px;
+}
+
 .button-up {
   display: block;
   position: relative;
@@ -156,13 +160,7 @@ input[type="email"]:focus + label {
   .newsletter-modal form {
     padding: 1rem !important;
   }
-  .newsletter-modal img {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
+
   .newsletter-img__container {
     position: relative;
     height: 180px;
