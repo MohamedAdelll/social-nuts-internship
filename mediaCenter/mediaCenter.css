@@ -1,0 +1,5 @@
+.media-center {
+  display: flex;
+  border: 1px solid var(--outline);
+  padding: 24px;
+}

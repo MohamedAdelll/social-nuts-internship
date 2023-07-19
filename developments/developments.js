@@ -35,7 +35,7 @@ const firstDescription = document.querySelector(
 );
 firstDescription.classList.add("translateY-0");
 let lastActiveIndex = 0;
-// console.log({ firstDescription });
+
 swiper.on("slideChange", (data) => {
   const index = data.activeIndex % 3 === 0 ? 3 : data.activeIndex % 3;
   if (lastActiveIndex === index) return;
@@ -64,4 +64,3 @@ swiper.on("slideChange", (data) => {
   pageNumber.textContent = `0${index}`;
   lastActiveIndex = index;
 });
-// console.log(swiper);
