@@ -17,11 +17,11 @@ body {
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: white !important;
+  text-decoration: none !important;
 }
 a:hover {
-  color: var(--outline);
+  color: var(--outline) !important;
 }
 
 button {
@@ -173,6 +173,10 @@ html {
 
 .text-white {
   color: #fff !important;
+}
+
+section {
+  background: var(--main-bg);
 }
 
 /* Styles for screens between 1200px and 1599.98px */

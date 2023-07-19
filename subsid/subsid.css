@@ -1,4 +1,11 @@
 .subsid {
-  padding: 2rem 0;
-  padding-left: 130px;
+  padding-top: 7rem;
+  padding-bottom: 1rem;
+}
+
+.subsid .div-container {
+  width: -moz-fit-content;
+  width: fit-content;
+  z-index: 5;
+  margin-left: 30%;
 }

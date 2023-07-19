@@ -14,7 +14,9 @@
   padding: 0.75rem 0;
   position: relative;
   overflow: hidden;
+  z-index: 0;
 }
+
 .media-center .div-container:hover .img-container {
   transform: translateY(0);
 }
