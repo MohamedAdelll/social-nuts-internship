@@ -103,7 +103,7 @@ input[type="email"]:focus + label {
   content: "";
   border: 2px solid white;
   width: 98%;
-  height: 93%;
+  height: 101%;
   position: absolute;
   top: 0;
   left: 0;

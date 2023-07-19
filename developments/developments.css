@@ -1,7 +1,7 @@
 .developments {
   position: relative;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 .developments .swiper-slide {
   position: relative;
@@ -105,9 +105,15 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  transform: translateY(120%);
+  transform: translate3d(0, 120%, 0);
   transition: all 1s ease-in-out;
   transition-delay: 0.5s;
+}
+
+.swiper-slide-next .slide-description,
+.swiper-slide-prev .slide-description {
+  transform: translate3d(0, 120%, 0);
+  transition: all 1s ease-in-out;
 }
 .developments .slide-description p {
   font-size: 18px;
@@ -190,4 +196,8 @@
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
+}
+
+.swiper-slide-active .slide-description {
+  transform: translate3d(0, 0, 0);
 }
