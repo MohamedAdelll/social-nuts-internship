@@ -7,6 +7,7 @@
   justify-content: space-between;
   align-items: center;
   z-index: 1;
+  pointer-events: none;
 }
 
 .header.fixed {
@@ -25,6 +26,7 @@
   background-color: #363b3c;
   box-shadow: 4px 15px 20px #1d1d1b4d;
   z-index: 2;
+  pointer-events: all;
 }
 
 .hotline-container {
@@ -36,6 +38,7 @@
   padding-left: 25px;
   margin-left: 4px;
   height: 80px;
+  pointer-events: all;
 }
 
 .telephone span {
@@ -93,12 +96,13 @@
   transition: all 0.5s cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 
-.hotline-container:hover .menu-toggle-span::before {
+.menu-toggle-container:hover .menu-toggle-span::before {
   right: 50%;
   transform: translateX(50%);
 }
 
 .menu-toggle__container {
+  cursor: pointer;
   height: 100%;
   padding: 25px;
 }
