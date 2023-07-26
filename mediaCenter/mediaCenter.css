@@ -82,6 +82,9 @@
 }
 
 @media (max-width: 768px) {
+  .media-center {
+    padding-left: 80px;
+  }
   .media-center .div-container {
     padding: 1.5rem !important;
     flex-basis: 40%;

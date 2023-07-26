@@ -1,4 +1,15 @@
 @import "node_modules/swiper/swiper-bundle.css";
+@import "loader/loader.css";
+@import "newsLetterModal/newsletterModal.css";
+@import "hero/hero.css";
+@import "about/about.css";
+@import "header/header.css";
+@import "developments/developments.css";
+@import "mediaCenter/mediaCenter.css";
+@import "subsid/subsid.css";
+@import "footer/footer.css";
+@import "assets/swiper/swiper.css";
+@import "menu/menu.css";
 
 :root {
   --main-bg: #363b3c;
